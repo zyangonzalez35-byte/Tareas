@@ -1,0 +1,22 @@
+/*Carpeta de estilos: CSS*/
+
+/*Estilos de selector de clase*/
+.color-h2{
+    color: rgb(193, 25, 193)
+}
+
+
+.color-estilosinternos{
+    color:rgb(248, 1, 1)
+}
+
+
+/*Estilos de selector de identificador*/
+#color-h1{
+    color: rgb(170, 17, 170)
+}
+
+
+#Fondo-header{
+    Background-color: rgb(0, 213, 255)
+}
