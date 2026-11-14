@@ -1,0 +1,44 @@
+.fondo1 {
+    /*bg-image permite agregar imagenes como fondo de un elemento y también se pueden agregar gradientes*/
+    background-image: linear-gradient(to top, rgba(255, 0, 195, 0.404), rgba(128, 128, 128, 0.404)), url(../Archivos/kirbyknife.png);
+
+    /* Backgound-size(cover, contain, width(px)-heigth(px))
+    Especifíca el tamaño de la imagen de fondo */
+    background-size: cover;
+
+    /* Background-repeat (repeat, no repeat, repeat-x, repeat-y)
+    Aplica cuando la imagen es más pequeña que su contenedor */
+    background-repeat: no-repeat;
+
+    /* Background-position (top, bottom, center, right, left)
+    establecer la posición inicial de una imagen en su contenedor */
+    background-position: bottom;
+
+    /* Background-attachment (scroll, fixed)
+    se utiliza para wue la imagen quede fija en su contenedor cuando un usuario se desplaza por la página */
+    background-attachment: scroll;
+
+    /* Propiedades generales de contenedor */
+    height: 800px;
+    width: 600px;
+    
+     /*background-attachment (scroll y fixed) 
+    se utiliza para que la imagen quede fija cuando un usuario se desplaza
+    por la pagina*/
+
+    background-attachment: fixed;
+}
+
+.p-1
+{
+    color: rgb(233, 162, 162);
+}
+
+.fondo2
+{
+    /*background: (image) (position) / (size) (repeat) (attachment) (color)*/
+    background: url(../Archivos/Gatop.jpg) center / cover no-repeat scroll rgba(81, 30, 19, 0.376);
+    width: 300px;
+    height: 300px;
+    border: 2px solid rgb(0, 0, 0);
+}
